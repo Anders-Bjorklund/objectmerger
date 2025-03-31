@@ -13,6 +13,19 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+<distributionManagement>
+		<repository>
+			<id>aicv-maven</id>
+			<url>https://pkgs.dev.azure.com/softhouse/AI-CV-Matching/_packaging/aicv-maven/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
+	
     <dependencies>
 
         <dependency>
